@@ -1,6 +1,11 @@
-from pandas.io.json import json_normalize
+import plotly.express as px
 import os
 import pandas as pd
 import numpy as np
 
-data = pd.read_json("data/daily.json")
+df = pd.read_csv("data/daily.csv",
+                 usecols= ['date', 'positive', 'negative']
+                 )
+
+fig = px.histogram(df, x='date', y='positive')
+fig.show()
