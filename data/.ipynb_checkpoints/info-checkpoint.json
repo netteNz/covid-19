@@ -1,0 +1,12 @@
+{
+    "state": "PR",
+    "covid19SiteOld": "http://www.salud.gov.pr/Pages/coronavirus.aspx",
+    "covid19Site": "https://estadisticas.pr/en/covid-19",
+    "covid19SiteSecondary": "https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/3bfb64c9a91944bc8c41edd8ff27e6df",
+    "twitter": "@DeptSaludPR",
+    "pui": "No Data",
+    "pum": false,
+    "notes": "Deaths include confirmed and presumed COVID deaths.\nPuerto Rico reports positive, negative, pending, and inconclusive results. We have added the inconclusive results to the pending results.",
+    "fips": "72",
+    "name": "Puerto Rico"
+}
